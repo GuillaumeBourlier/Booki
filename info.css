@@ -1,0 +1,166 @@
+/*** En tête Info ***/
+
+.info-group {
+    background: none;
+}
+
+.info-group_section {
+    margin-bottom: 25px;
+}
+
+
+.info-group_section h2 {
+    line-height: 2.5rem;
+}
+
+/* Location barre de recherche */
+.section_location form {
+    height: 49px;
+    display: flex;
+    width: fit-content;
+    font-size: 0;
+    border-radius: 15px;
+    border-top: 1px solid var(--filter-bg-color);
+    border-bottom: 1px solid var(--filter-bg-color);
+    border-left: 1px solid var(--filter-bg-color);
+    border-right: 1px solid var(--filter-bg-color);
+}
+
+.location_form {
+    height: 49px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.form_icon {
+    background: var(--main-bg-color);
+    width: 50px;
+    height: 47px;
+    font-size: 1.3rem;
+    text-align: center;
+    border-radius: 15px 0 0 15px;
+    border-right: 1px solid var(--filter-bg-color);
+}
+
+.form_icon i {
+    color: #000;
+    line-height: 47px;
+    width: 49px;
+}
+
+.section_location input,
+.section_location button {
+    height: 100%;
+    font-size: 1.1rem;
+    font-weight: 800;
+    color:#000;
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0 15px;
+} 
+
+.section_location input:hover {
+    outline: none;
+}
+
+.section_location input {
+    width: 200px;
+    padding: 0 15px; 
+    background-color: #ffffff; 
+    border: none;
+}
+
+.section_location input:focus {
+    outline: none;
+    background-color: #ffffff; 
+}
+
+.section_location input::placeholder {
+    color: black;
+    font-weight: 400;
+    font-weight: bold;
+}
+
+.section_location button {
+    padding: 0 15px; 
+    background-color: #007bff; 
+    color: #fff; 
+    border: none;
+    border-radius: 0 15px 15px 0;
+}
+
+.section_location button:hover {
+    background-color: rgb(5, 61, 121); 
+    cursor: pointer;
+}
+
+.section_location button:active {
+    background-color: rgb(3, 25, 48); 
+}
+
+.location_form .mobile {
+    display: none;
+}
+
+.location_form .mobile i {
+    color: #FFF;
+}
+
+.location_form .desktop {
+    display: inline;
+}
+
+/*** Filtres ***/
+.section_filter {
+    height: 49px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.section_filter h2 {
+    margin: 0 10px 2px 0;
+}
+
+.filter_button {
+    margin: 0 5px;
+    border: 2px #dadada solid;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.filter_button i {
+    margin: 0 10px 0 0;
+    color: var(--main-color);
+}
+
+.filter_button:hover {
+    background-color: #eef6ff;
+    cursor: pointer;
+}
+
+/*** Info ***/
+
+.section_info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.info_icon {
+    background: #F2F2F2;
+    width: 24px;
+    height: 24px;
+    font-size: 0.8rem;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #dadada;
+    margin-right: 10px;
+}
+
+.info_icon i {
+    color: var(--main-color);
+    line-height: 24px;
+}
